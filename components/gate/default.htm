@@ -2,9 +2,9 @@
     window.addEventListener('load', function () {
     new Agegate({
                 cookie: "popup_agreed",
-                body: "{{'Are you 21 or olders?'|_}}",
-                yesButton: "{{'Aye'|_}}",
-                noButton: "{{'Nay'|_}}",
+                body: "{{'Are you 18 or older?'|_}}",
+                yesButton: "{{'Yes'|_}}",
+                noButton: "{{'No'|_}}",
                 cancelUrl: "{{ __SELF__.property('cancelUrl') }}",
                 expires: {{ __SELF__.property('cookie') }},
                 success: function() {},
