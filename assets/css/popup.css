@@ -4,9 +4,9 @@
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
     padding: 40px;
-    margin: 80px auto 0;
+    margin: 15% auto 0;
     background: white;
   }
   
