@@ -25,7 +25,7 @@ class Gate extends ComponentBase
             ],
             'cancelUrl' => [
                 'title'             => 'Cancel URL',
-                'description'       => 'URL where user will be redirected if he clicks No',
+                'description'       => 'URL where user will be redirected if he clicks No (use http/https for external URLs',
                 'default'           => '/',
                 'type'              => 'string'
             ]
